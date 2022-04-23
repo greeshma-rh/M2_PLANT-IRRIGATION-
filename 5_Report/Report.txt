@@ -1,0 +1,92 @@
+1. INTRODUCTION
+In this digital world we need every possible thing around us to be automatic which reduces human effort .There are increasing electronic circuits that make todays life easier and simple. Nowadays , energy crisis and water crisis are the big problems faced by everyone. So, there is a need to conserve energy and water. The aim of this is to make solar based prototype to irrigate the field automatically. Imagine how helpful it will be when you are busy in doing your next task and your field is being irrigated automatically at low cost. No worries about under irrigation as well as over irrigation , no worries about the wastage of water as well as expensive electricity , no worries about your busy schedule. This is what Automatic irrigation about and there is no end to its practical application. 'AUTOMATIC PLANT IRRIGATION SYSTEM USING ARDUINO  UNO' as the name specifies that it irrigates the field when the moisture value of soil is below the reference value and it will automatically turn off when the moisture value in soil exceeds that reference value The main aim of this project was to provide water to the plants or gardening automatically using Arduino UNO. We can automatically watering the plants when we are going on vacation or don’t we have to bother my neighbors, Sometimes the neighbors do too much of watering and the plants end up dying anyway. As similation is that the artificial application of water to the land or soil It is used to assist in the growing of agricultural crops maintenance of landscapes, and re vegetation of disturbed soils in dry areas and during periods of inadequate rainfall. Several sprinklers have pipe thread inlets on the lowest of them that permits a fitting and also the pipe to be connected to them. The sprinklers are usually used in the top of the head flush with the ground surface As the method of dripping will reduce huge water losses it became a popular method by reducing the labor cost and increasing the yields. When the components are activated, all the components will read and gives the output signal to the controller, and the information will be displayed to the user (farmer). The sensor readings are analog in nature so the ADC pin in the controller will convert the analog signals into digital format. The  full  concept  of  the  water  irrigation  system  is  like traditional  techniques  of  sprinkler  or  surface  irrigation requires    half  of  water  sources.  Even  more specific  amounts of  water can be supplied for plants. The main objective of this project  is  to  save  water and reduce or minimize labour work   in the agriculture   lands. Continuously Monitoring the status of  sensors    provide  signal  for  taking  necessary  action  to implementing the process and get the output of soil moisture sensor &  provide water according  to  the need  or required  of crop.
+1.1 Problem Statement
+Nowadays,  despite being an  agricultural  country,  the  number of  people who  die  of hunger  is  still  quite  high.  Access  to  food  seems  to  be  difficult,  as  price  and  quantity  of food  is  still  beyond  the  capability  of  the  lower  middle  class  and  lower  class.  Irrigation induced  Crop  failure  is  a  major  cause  of  crop  loss  every  year,  and  in  the  age  of  water crises,  this  has  been  elevated  to  great  levels.  In  order  to  keep  up  with  increasing  demand, farmers  are  required  to  increase  crop  efficiency,  by  rapidly  advancing  technologies.  In order to handle Irrigation issues, this system  has been devised and implemented. Usually, farmers  need  large  scale  manpower  to  irrigate  large  lands  simultaneously.  However Automatic  Plant  Irrigation  System  (APIS)  is  an  automatic  system  that  facilitates automated irrigation  of  lands simultaneously,  upon need.
+1.2 Motivation
+The  motivation  for  this  project  came  from  the  countries  where  economy  is  based  on agriculture  and  the  climatic  conditions  lead  to  lack  of  rains  &  scarcity  of  water.  Our country  mostly  depends  on  agriculture.  The  farmers  working  in  the  farm  lands  are  solely dependent on the rains  and bore  wells for irrigation of  the land. Even if  the  farm  land has a  water-pump,  manual  intervention  by  farmers  is  required  to  turn  the  pump  on/off whenever needed.   The  project  aim  is  to  detect  the  dryness  in  soil  using  sensors  and  provide  water  to  the plants  appropriately.  This  project  helps  to  maintain  the  plants  quite  easily.  In  this  project we are detecting soil  moisture and  need for Irrigation.
+1.3 Objectives
+The  Aim  of  our  project  is  to  minimize  this  manual  intervention  by  the  farmer.  Automated Irrigation system  will  serve the following  purposes:
+1) As there is no un-planned usage  of  water, a  lot of  water is saved from being  wasted.
+2)  The  irrigation  is  done  only  when  there  is  not  enough  moisture  in  the  soil  and  the sensors  decide  when  the  pump  should  be  turned  on/off.  This  saves  a  lot  time  for  the farmers.  This  also  gives  much  needed  rest  to  the  farmers,  as  they  don’t  have  to  go  and turn the pump on/off  manually.
+ 
+2. Literature Survey:
+Archana  and  Priya  (2016)  proposed  a  paper  in  which  the humidity  and  soil  moisture  sensors  are  placed  in  the  root zone  of  the  plant.  Based  on  the  sensed  values  the microcontroller is  used  to  control  the supply  of  water  to  the field.  This  system  doesn’t  intimate the farmer about the field status. 
+SonaliD.Gainwar  and  Dinesh V.  Rojatkar  (2015)  proposed  a paper  in  which  soil  parameters  such  as  pH,  humidity, moisture  and  temperature  are  measured  for  getting  high yield  from  soil.  This  system  is  fully  automated  which  turns the  motor  pump  ON/OFF as per the level  of  moisture  in  the soil.  The  current  field  status  is  not  intimated  to  the farmer.
+V.  R.  Balaji  and  M.  Sudha  (2016)  proposed  a  paper  in  which the  system  derives  power  from  sunlight  though  photovoltaic  cells  .This system  doesn’t  depend  on  electricity. The soil  moisture sensor has been used and based on the sensed values  PIC  microcontroller  is  used  to  ON/OFF  the  motor pump. Weather forecasting is not included in this system.
+ G.Parameswaran and K.Sivaprasath (2016) proposed a smart drip  irrigation  system  using  IOT  in  which  humidity, temperature  and  pH  sensors  are  used.  Irrigation  status  is updated to  the server or local host using personal computer The  farmer  can’t  access  about  the  field  condition  without internet  [4].
+S.Reshma  and  B.A.Sarath  (2016)  proposed  an  IOT  based automatic irrigation system using wireless sensor networks in  which  various  sensors  are  used  to  measure  the  soil parameters. This system provides a web interface to the user to  monitor  and  control  the  system  remotely.  Weather monitoring  is  not  done  in  this  system.
+ Joaquin  Gutierrez  (2013)  proposed  a  gateway  unit  which handles  sensor  information,  triggers  actuators,  and transmits  data  to  web  application.  It  is  powered  by photovoltaic  panels  and  has  duplex  communication  link based  on  cellular  internet  interface  that  allows  for  data inspection  and  irrigation  scheduling  to  be  programmed through  web  page.
+
+
+
+3.MATERIALS AND METHODOLOGY:
+3.1 Working Of Moisture Sensor:
+The Soil Moisture Sensor uses capacitance to measure dielectric permittivity of the surrounding medium. In soil, dielectric permittivity is a function of the water content. The sensor creates a voltage proportional to the dielectric permittivity, and therefore the water content of the soil. The sensor averages the water content over the entire length of the sensor. There is a 2 cm zone of influence with respect to the flat surface of the sensor, but it has little or no sensitivity at the extreme edges. The figure above shows the electromagnetic field lines along a cross-section of the sensor, illustrating the 2 cm zone of influence.
+Figure 1:moisture sensor
+
+CIRCUITRY CONNECTIONS
+Figure 2:circuit diagram
+
+Components Required :
+1.	Arduino UNO
+2.	Moisture sensor
+3.	Water pump
+4.	Battery
+5.	Transistor
+6.	Diode
+7.	Resistor
+8.	PCB Board
+9.	Connecting wires
+
+
+
+
+
+
+
+
+	1.Arduino UNO[Microcontroller]:
+
+Figure 3: Arduino UNO
+•	Power Pin (Vin, 3.3V, 5V, GND): These pins are power pins
+•	Vin is the input voltage of the board, and it is used when an external power source is used from 7V to 12V.
+•	5V is the regulated power supply voltage of the nano board and it is used to give the supply to the board as well as components.
+•	3.3V is the minimum voltage which is generated from the voltage regulator on the board.
+•	GND is the ground pin of the board
+•	RST Pin( Reset): This pin is used to reset the microcontroller
+•	Analog Pins (A0-A7): These pins are used to calculate the analog voltage of the board within the range of 0V to 5V
+•	I/O Pins (Digital Pins from D0 – D13): These pins are used as an input otherwise output pins. 0V & 5V
+•	Serial Pins (Tx, Rx): These pins are used to transmit & receive TTL serial data.
+•	External Interrupts (2, 3): These pins are used to activate an interrupt.
+•	PWM (3, 5, 6, 9, 11): These pins are used to provide 8-bit of PWM output.
+
+
+2.Moisture sensor:
+ Soil moisture sensors measure the humidity of water content in soil. Since the direct hydrometric measuring of free soil wetness needs removing, drying, and coefficient of a sample, soil wetness sensors live the meter water content indirectly by victimization another property of the soil, like electrical phenomenon, non conductor constant, or interaction with neutrons, as a proxy for the wetness content. 
+Figure 4: Moisture Sensor
+3.Water Pump:
+ The pump is employed to by artificial water for a selected task. It are often electronically controlled by interfacing it to a microcontroller. It are often triggered ON/OFF by causing signals pro renata. the method of by artificial means activity water is understood as pumping. There are many sorts of water pumps used. This project employs the employment of a little pump that is connected to a H-Bridge. The pumping of water could be a basic and sensible technique, much more sensible than scooping it up with one's hands or lifting it in a very hand-held bucket. This is true whether or not the water is drawn from a contemporary supply, affected to a required location, purified, or used for irrigation, washing, or waste product treatment, or for evacuating water from associate undesirable location. notwithstanding the result, the energy needed to pump water is an especially exigent part of. All alternative processes rely or profit either from water descending from the next elevation or some pressurised utility..
+Figure 5: Water Pump
+4. 9V Battery:
+ 9V batteries are one of the "big 5" or highly in-demand batteries because of the many applications or devices it can power up. Each 9-volt battery is literally described as a rectangular prism cell having rounded edges and polarized snap connector at its top. It has product dimensions of approximately 46.40 mm to 48.50 mm in height; 25.0 mm to 26.50 mm approximate length and the width ranging from 15.0 mm to 17.50 mm. It is first used in transistor radios. This is the reason why some manufacturers still refer to nine-volt batteries as transistor batteries.
+Figure 6: 9v Battery
+5.Transistor:
+The common NPN bipolar semiconductor device; bipolar junction transistors (BJT) used for general purpose low-power amplifying or switch applications. It is designed for low to medium current, low amplifying current, low power, medium voltage, and might operate at moderately high speeds. It had been originally created within the TO-18 metal.
+Figure 7: Transistor
+
+
+6.Diode:
+ A diode is a semiconductor device that essentially acts as a one-way switch for current. It allows current to flow easily in one direction, but severely restricts current from flowing in the opposite direction. Diodes are also known as rectifiers because they change alternating current (ac) into pulsating direct current (dc). Diodes are rated according to their type, voltage, and current capacity.
+Figure 8: Diode
+
+7.Resistor:
+A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. In electronic circuits, resistors are used to limit current flow, to adjust signal levels, bias active elements, and terminate transmission lines among other uses. 
+
+Figure 9: Resistor
+
+8.PCB Board:
+A blank PCB is quite simply an empty circuit board free from any of the components that are installed to create a functioning circuit board. A blank circuit board is sometimes known as a 'copper-clad' circuit board, due to the coating of copper the board has around it.
+Figure 10: Blank PCB Board
+9. Connecting Wires:
+Connecting wires allows an electrical current to travel from one point on a circuit to another because electricity needs a medium through which it can move. Most of the connecting wires are made up of copper or aluminum.
+Figure 11: Connecting Wires
