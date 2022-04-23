@@ -1,0 +1,12 @@
+Components Required :
+
+	1. Arduino UNO
+	2. Moisture sensor
+	3. Water pump
+	4. Battery
+	5. Transistor
+	6. Diode
+	7. Resistor
+	8. PCB Board
+	9. Connecting wires
+
